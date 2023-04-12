@@ -130,10 +130,10 @@ class Ldk: NSObject {
     static var channelStoragePath: URL?
     
     //Uncomment for sending LDK team debugging output
-    //    override init() {
-    //        Bindings.setLogThreshold(severity: .DEBUG)
-    //        super.init()
-    //    }
+        override init() {
+            Bindings.setLogThreshold(severity: .DEBUG)
+            super.init()
+        }
     
     //MARK: Startup methods
     
